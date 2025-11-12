@@ -1,0 +1,27 @@
+"""
+THIS CODE HAS BEEN TESTED ON RASPBERRY PI 3B, 4B AND IS FULLY OPERATIONAL.
+
+Problem Statement: Water level
+
+Code from InternetOfThingsAndEmbeddedSystems (SPPU - Third Year - Computer Engineering - Content) repository on KSKA Git: https://git.kska.io/sppu-te-comp-content/InternetOfThingsAndEmbeddedSystems
+"""
+
+# BEGINNING OF CODE
+import RPi.GPIO as GPIO         # Import library
+
+# Initalize GPIO
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
+GPIO.setup(16, GPIO.IN)         # Set GPIO 16 as input for water level sensor signal
+GPIO.setup(26, GPIO.OUT)         # Set GPIO 6 as output for LED
+
+try:
+    while True:
+        if (GPIO.input(16))
+            GPIO.output(26, True)    # Turn ON LED if water detected
+        else
+            GPIO.output(26, False)   # Keep LED OFF if no water detected
+except KeyboardInterrupt:
+    GPIO.cleanup()
+    print("Program exited by user.")
+# END OF CODE
