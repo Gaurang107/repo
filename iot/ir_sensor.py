@@ -1,11 +1,3 @@
-"""
-THIS CODE HAS BEEN TESTED ON RASPBERRY PI 3B and 4B AND IS FULLY OPERATIONAL.
-
-Problem Statement: IR Sensor
-
-Code from InternetOfThingsAndEmbeddedSystems (SPPU - Third Year - Computer Engineering - Content) repository on KSKA Git: https://git.kska.io/sppu-te-comp-content/InternetOfThingsAndEmbeddedSystems
-"""
-
 # BEGINNING OF CODE
 import RPi.GPIO as GPIO
 import time

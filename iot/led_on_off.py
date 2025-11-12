@@ -1,11 +1,3 @@
-"""
-THIS CODE HAS BEEN TESTED ON RASPBERRY PI 3B AND IS FULLY OPERATIONAL.
-
-Problem Statement: Understanding the connectivity of Raspberry-Pi / Arduino with IR sensor. Write an application to detect obstacle and notify user using LEDs.
-
-Code from InternetOfThingsAndEmbeddedSystems (SPPU - Third Year - Computer Engineering - Content) repository on KSKA Git: https://git.kska.io/sppu-te-comp-content/InternetOfThingsAndEmbeddedSystems
-"""
-
 # BEGINNING OF CODE
 # SINGLE LED ON/OFF
 import RPi.GPIO as GPIO
